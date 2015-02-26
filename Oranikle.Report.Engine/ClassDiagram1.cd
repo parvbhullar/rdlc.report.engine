@@ -1,0 +1,3344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Oranikle.Report.Engine.Action" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAEBAAUAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAA=</HashCode>
+      <FileName>Definition\Action.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Axis" Collapsed="true">
+    <Position X="22.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEAAgikAAFAhAEAAECgBAAAiJogATAEsBAwCEABAEAA=</HashCode>
+      <FileName>Definition\Axis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.AxisTickMarks" Collapsed="true">
+    <Position X="280.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\AxisTickMarks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Body" Collapsed="true">
+    <Position X="69.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBBEJwAAIAIAAAAAAAAAAAAAABBACAAIgIAAI=</HashCode>
+      <FileName>Definition\Body.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CategoryAxis" Collapsed="true">
+    <Position X="83.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\CategoryAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CategoryGrouping" Collapsed="true">
+    <Position X="94.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAAAAAAAAAAAAIIAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Definition\CategoryGrouping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CategoryGroupings" Collapsed="true">
+    <Position X="108" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\CategoryGroupings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Chart" Collapsed="true">
+    <Position X="252" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAADJAcAAGEAAEwCQIAICDAAQbQAAAKAAQmggCBQBAI=</HashCode>
+      <FileName>Definition\Chart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartBar" Collapsed="true">
+    <Position X="18" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAAAAgUEACAAABAAAAAAAEAAABQAAAIAAAA=</HashCode>
+      <FileName>Definition\ChartBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartBase" Collapsed="true">
+    <Position X="20.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wIpgyIM4uCBJghKIAAmwaBASWAMBBREKACAkgAgRNIA=</HashCode>
+      <FileName>Definition\ChartBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartBubble" Collapsed="true">
+    <Position X="20.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAgEEACAAABAABAAAAEAAEBAAEAIAAAA=</HashCode>
+      <FileName>Definition\ChartBubble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartColumn" Collapsed="true">
+    <Position X="22.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAABAEAAAAgUEACAAQBAABAAAAEAAABQAAAIAAAA=</HashCode>
+      <FileName>Definition\ChartColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartData" Collapsed="true">
+    <Position X="159.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartElementOutput" Collapsed="true">
+    <Position X="285.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartExpression" Collapsed="true">
+    <Position X="245.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIABAEAAAAIBCQCgAAQEAAAAAAIAAAAggBAIAAI=</HashCode>
+      <FileName>Definition\ChartExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartGridLines" Collapsed="true">
+    <Position X="207" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAgAAAAAEAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartGridLines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartLayout" Collapsed="true">
+    <Position X="287.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABAAABAIAAEgIAAAAAFAAAAAIAAIAAAgAAIAAABA=</HashCode>
+      <FileName>Definition\ChartLayout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartLine" Collapsed="true">
+    <Position X="22.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAYAIAAAAgAAAAAAAAAAAAAAAAAAAAAAoAAAQAA=</HashCode>
+      <FileName>Definition\ChartLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartMap" Collapsed="true">
+    <Position X="24.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Definition\ChartMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MapData" Collapsed="true">
+    <Position X="298" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OACAAAAAAYAAAYAAUAiABAACAAAAAkQAICQAAAAAAAE=</HashCode>
+      <FileName>Definition\ChartMapData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MapObject" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartMapData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MapLines" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MACBAAAAAAAAAgAAAAAAAAAAAAAAAAQCAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartMapData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MapPolygon" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MACAAAAAAAAIAgAAAAAAAAAAAAAACAQAAAAAAAIAACA=</HashCode>
+      <FileName>Definition\ChartMapData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MapText" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAADBAgAAAAAgAAAAIAAgAAQAgAgAAAAAAACCAAAAA=</HashCode>
+      <FileName>Definition\ChartMapData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartPalette" Collapsed="true">
+    <Position X="289.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartPalette.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartPie" Collapsed="true">
+    <Position X="15.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABkAEAABAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Definition\ChartPie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartSeries" Collapsed="true">
+    <Position X="110.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIABAEAAAAABAACgAAAAAAAQAAIAAAAAgBAIAAA=</HashCode>
+      <FileName>Definition\ChartSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartSubType" Collapsed="true">
+    <Position X="291" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartSubType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ChartType" Collapsed="true">
+    <Position X="292.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Classes" Collapsed="true">
+    <Position X="162" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAFAACBAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Classes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Code" Collapsed="true">
+    <Position X="177.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAgAABAkAAAAAAAAAAAAAAEEAAAAAAQAAAFAAACAA=</HashCode>
+      <FileName>Definition\Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CodeReport" Collapsed="true">
+    <Position X="298" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAIAIAACACAAQA=</HashCode>
+      <FileName>Definition\Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CodeParameters" Collapsed="true">
+    <Position X="296.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CodeUser" Collapsed="true">
+    <Position X="299.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAACAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CodeGlobals" Collapsed="true">
+    <Position X="294.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAgAAAAAAAAAACEAAAAAAAIAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Definition\Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CodeModule" Collapsed="true">
+    <Position X="220.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAEgAIAAAAAAAAAAAAAAAAAACAAAAAAAAAAI=</HashCode>
+      <FileName>Definition\CodeModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CodeModules" Collapsed="true">
+    <Position X="227.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACBAACAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\CodeModules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ColumnGrouping" Collapsed="true">
+    <Position X="263.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABEAAAgAAAAAAIAAAAAAAAAAIAAAAAIAAAAA=</HashCode>
+      <FileName>Definition\ColumnGrouping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ColumnGroupings" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQgBAFAACABAQAAAAAAQAAEAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Definition\ColumnGroupings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConnectionProperties" Collapsed="true">
+    <Position X="24.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAACAACQAAAACBAAAAAAAAAAAEAAAQACAA=</HashCode>
+      <FileName>Definition\ConnectionProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Corner" Collapsed="true">
+    <Position X="38.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Corner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Custom" Collapsed="true">
+    <Position X="54" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAAAAAAAAAAACAAAAAAAAACAAAEAAAAAAA=</HashCode>
+      <FileName>Definition\Custom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CustomReportItem" Collapsed="true">
+    <Position X="247.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAEAAABAEAAAAADAAAAAAAAAAAQCAAAAABAI=</HashCode>
+      <FileName>Definition\CustomReportItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CustomProperty" Collapsed="true">
+    <Position X="296.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Definition\CustomReportItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataElementOutput" Collapsed="true">
+    <Position X="299.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataElementStyle" Collapsed="true">
+    <Position X="277" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataElementStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataInstanceElementOutput" Collapsed="true">
+    <Position X="278.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataInstanceElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataLabel" Collapsed="true">
+    <Position X="153" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAxAJAgAAAAgAAAAAAAAAAIBAAgAAAAAAA=</HashCode>
+      <FileName>Definition\DataLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataLabelPosition" Collapsed="true">
+    <Position X="280.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataLabelPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataPoint" Collapsed="true">
+    <Position X="191.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAEAgAAAABAAAgQgAAEAAIAAAJIAAAAAAACQ=</HashCode>
+      <FileName>Definition\DataPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataPoints" Collapsed="true">
+    <Position X="200.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataRegion" Collapsed="true">
+    <Position X="253" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAkAAqAAAAYhgIAAAAICAQAQgAACADQQAggI=</HashCode>
+      <FileName>Definition\DataRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSetDefn" Collapsed="true">
+    <Position X="216" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAACAhUEQIAQAAQICIIhQAAAIAAAgCEACAAQAKgAA=</HashCode>
+      <FileName>Definition\DataSetDefn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSetReference" Collapsed="true">
+    <Position X="222.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAAAEgAAAAAAAAAAAAACCAEAgAAAgAACAAgAAA=</HashCode>
+      <FileName>Definition\DataSetReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSetsDefn" Collapsed="true">
+    <Position X="229.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEFAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataSetsDefn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSourceDefn" Collapsed="true">
+    <Position X="265.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAECQAABAIAECJAQBAAIAABQAAAAAAFAAABE=</HashCode>
+      <FileName>Definition\DataSourceDefn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSourceReference" Collapsed="true">
+    <Position X="287.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAIAAAAAAAAAAAAAABAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataSourceReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSourcesDefn" Collapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAACAAABAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Definition\DataSourcesDefn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataType" Collapsed="true">
+    <Position X="291" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Definition\DataType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataValue" Collapsed="true">
+    <Position X="56.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Definition\DataValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataValues" Collapsed="true">
+    <Position X="72" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DefaultValue" Collapsed="true">
+    <Position X="85.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAIEAAAAACCAAAAAAAQAAEAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>Definition\DefaultValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Details" Collapsed="true">
+    <Position X="96.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAIAgAAAECBAAAAAAAgAAIQAACAAAAAACiAAAAAAAI=</HashCode>
+      <FileName>Definition\Details.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Drillthrough" Collapsed="true">
+    <Position X="112.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgEAIAAAAAAAAAAAAAAAAAAAAAAAEAABAAAA=</HashCode>
+      <FileName>Definition\Drillthrough.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrillthroughParameter" Collapsed="true">
+    <Position X="123.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAABAAAAIAIAQAgAAAAAAECAAgAAAAAAA=</HashCode>
+      <FileName>Definition\DrillthroughParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrillthroughParameters" Collapsed="true">
+    <Position X="130.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DrillthroughParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DynamicCategories" Collapsed="true">
+    <Position X="139.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAgAAEECAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DynamicCategories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DynamicColumns" Collapsed="true">
+    <Position X="146.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAgAAAEqEAAAAIAAAAAIQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DynamicColumns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DynamicExpression" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="296.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAEAEAAgAAAAAAAAAAAiAAEEAIAIEACWAAAEAAJAA=</HashCode>
+      <FileName>Definition\DynamicExpression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DynamicRows" Collapsed="true">
+    <Position X="164.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAgAAAEqEAAAAIAAAAAIQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DynamicRows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DynamicSeries" Collapsed="true">
+    <Position X="180" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAgAAEECAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DynamicSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EmbeddedImage" Collapsed="true">
+    <Position X="193.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMAAAAAAAAAAIIQAAAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>Definition\EmbeddedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EmbeddedImages" Collapsed="true">
+    <Position X="202.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EmbeddedImages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EMF" Collapsed="true">
+    <Position X="298" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAACBAAAACAAAABAIEAAAAAAAAAIAAAIAAAAYAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Comment" Collapsed="true">
+    <Position X="19.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrawBase" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACBAAAAAAAAAgAAEEAAAAAAAAAAAAAAABAYAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\DrawBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrawCurve" Collapsed="true">
+    <Position X="21.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\DrawCurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrawEllipse" Collapsed="true">
+    <Position X="24" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\DrawEllipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrawLines" Collapsed="true">
+    <Position X="1.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAAAAAEIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\DrawLines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrawPie" Collapsed="true">
+    <Position X="3.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\DrawPie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrawRects" Collapsed="true">
+    <Position X="6" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\DrawRects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DrawString" Collapsed="true">
+    <Position X="8.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\DrawString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FillEllipse" Collapsed="true">
+    <Position X="10.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\FillEllipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FillPie" Collapsed="true">
+    <Position X="12.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\FillPie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FillPolygon" Collapsed="true">
+    <Position X="15" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\FillPolygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FillRects" Collapsed="true">
+    <Position X="17.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFDrawingRecords\FillRects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EMFBrush" Collapsed="true">
+    <Position X="3.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFBrush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EmfLinearGradientBrush" Collapsed="true">
+    <Position X="1" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFBrush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EmfHatchFillBrush" Collapsed="true">
+    <Position X="3.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFBrush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EmfSolidBrush" Collapsed="true">
+    <Position X="5.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFBrush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EMFFont" Collapsed="true">
+    <Position X="7.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFFont.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EMFPen" Collapsed="true">
+    <Position X="10" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFPen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EMFStringFormat" Collapsed="true">
+    <Position X="12.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFStringFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EMFRecordObject" Collapsed="true">
+    <Position X="6.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFRecordObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.EMFSetPageTransform" Collapsed="true">
+    <Position X="299.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAEAAAAAAABAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFTransform\EMFSetPageTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Expression" Collapsed="true">
+    <Position X="267.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAEAEAEkAAAAAAAAAAAiAAEEAACIEAKUAAAEAALAA=</HashCode>
+      <FileName>Definition\Expression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Field" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAAAEAAABAAAAgAIAQABAAAAAAAASAgABAABAA=</HashCode>
+      <FileName>Definition\Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Fields" Collapsed="true">
+    <Position X="40.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFCACBAACAAAEAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Definition\Fields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Filter" Collapsed="true">
+    <Position X="58.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgIAgHAAAAAAAAAkACAAAAAAAAAAAEAAAAQAAAA=</HashCode>
+      <FileName>Definition\Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FilterOperator" Collapsed="true">
+    <Position X="278.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\FilterOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Filters" Collapsed="true">
+    <Position X="99" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Definition\Filters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FilterValue" Collapsed="true">
+    <Position X="114.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\FilterValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FilterValues" Collapsed="true">
+    <Position X="126" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\FilterValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Footer" Collapsed="true">
+    <Position X="132.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEABAAAAAAAAAAAAAACAAAAAACiAAAQQAAI=</HashCode>
+      <FileName>Definition\Footer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.GroupEntry" Collapsed="true">
+    <Position X="277" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEEAAQAAAAABAAAQDAgAAAAIAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Definition\GroupEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.GroupExpression" Collapsed="true">
+    <Position X="148.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\GroupExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.GroupExpressions" Collapsed="true">
+    <Position X="155.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\GroupExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Grouping" Collapsed="true">
+    <Position X="166.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AHBAAAQgMEAAIAAQAIEAIIwAAEIAYCACgIAAAwCAgCA=</HashCode>
+      <FileName>Definition\Grouping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Header" Collapsed="true">
+    <Position X="182.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIEABAgAAAAAAAAAAAACAAAAAACiACAQQAAI=</HashCode>
+      <FileName>Definition\Header.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Image" Collapsed="true">
+    <Position X="243" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAAMAAAhAAQAUAAAAAAAAAECAgAACgUABAAAI=</HashCode>
+      <FileName>Definition\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ImageSizing" Collapsed="true">
+    <Position X="285.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ImageSizing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ImageSource" Collapsed="true">
+    <Position X="287.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ImageSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Legend" Collapsed="true">
+    <Position X="231.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAEAhAAAoAAAAgAAAAAAAAAAIBAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Legend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.LegendLayout" Collapsed="true">
+    <Position X="292.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\LegendLayout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.LegendPosition" Collapsed="true">
+    <Position X="294.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\LegendPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Line" Collapsed="true">
+    <Position X="236.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAACAAAAAAAAAAAAAAGAAAAAEAI=</HashCode>
+      <FileName>Definition\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.List" Collapsed="true">
+    <Position X="249.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAgBBIGKAAAAAIAAggEAwAAAAAIAACACIAAABgAI=</HashCode>
+      <FileName>Definition\List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Marker" Collapsed="true">
+    <Position X="87.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAggAAAAAAAAAIAAAAAAAAABQAAAAAABAA=</HashCode>
+      <FileName>Definition\Marker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MarkerType" Collapsed="true">
+    <Position X="299.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MarkerType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Matrix" Collapsed="true">
+    <Position X="254.25" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Oranikle.Report.Engine.Matrix.WorkClass" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Definition\Matrix.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AGAQEADxIHIhQRkoiMQkCABgDACEhECBEICgQbAAAAc=</HashCode>
+      <FileName>Definition\Matrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixCell" Collapsed="true">
+    <Position X="135" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixCellDataElementOutput" Collapsed="true">
+    <Position X="277" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixCellDataElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixCellEntry" Collapsed="true">
+    <Position X="278.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABAhAARQAAAAAAEYAAAAAABAAAAAkAIAAAhA=</HashCode>
+      <FileName>Definition\MatrixCellEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixCells" Collapsed="true">
+    <Position X="168.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixCells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixColumn" Collapsed="true">
+    <Position X="184.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Definition\MatrixColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixColumns" Collapsed="true">
+    <Position X="195.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACBAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixColumns.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixEntry" Collapsed="true">
+    <Position X="280.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiCAAEAAQGQAAEAAQAAAQCAEIAABABBAAiAECQgRARA=</HashCode>
+      <FileName>Definition\MatrixEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixEntryComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="282.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixEntry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixLayoutDirection" Collapsed="true">
+    <Position X="284" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixLayoutDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixRow" Collapsed="true">
+    <Position X="234" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEAAAAAACAAAAAAAAAAAAAAAEAAAAIAAAAA=</HashCode>
+      <FileName>Definition\MatrixRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MatrixRows" Collapsed="true">
+    <Position X="270" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixRows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Name" Collapsed="true">
+    <Position X="292.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Name.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.NameLookup" Collapsed="true">
+    <Position X="294.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgiFEAAAAAAAAAWAIkAEAIEAAABkAAAMBqACCACAgUg=</HashCode>
+      <FileName>Definition\NameLookup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageFooter" Collapsed="true">
+    <Position X="42.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEIgAAAAIQAAAAAgAAAACAAABACACIAAAAI=</HashCode>
+      <FileName>Definition\PageFooter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageHeader" Collapsed="true">
+    <Position X="60.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEIgAAAAIQAAAAAgAAAACAAABACACIAAAAI=</HashCode>
+      <FileName>Definition\PageHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ParameterValue" Collapsed="true">
+    <Position X="74.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAEEAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Definition\ParameterValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ParameterValues" Collapsed="true">
+    <Position X="90" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ParameterValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PlotArea" Collapsed="true">
+    <Position X="101.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Definition\PlotArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PlotType" Collapsed="true">
+    <Position X="284" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\PlotType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Query" Collapsed="true">
+    <Position X="137.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAREEAEDAQAAIAgCBAAACAAAAIBAAAQBAwIAAE=</HashCode>
+      <FileName>Definition\Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.QueryColumn" Collapsed="true">
+    <Position X="291" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAAAAAAAAAAAAAAAACAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Definition\QueryColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.QueryCommandType" Collapsed="true">
+    <Position X="292.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\QueryCommandType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.QueryParameter" Collapsed="true">
+    <Position X="171" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAABQAAAAAIAQAAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Definition\QueryParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.QueryParameters" Collapsed="true">
+    <Position X="186.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAFAACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\QueryParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RDLParser" Collapsed="true">
+    <Position X="298" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAEAAAAAIAQAAAAAQAAAAAAAgAAgAABABAA=</HashCode>
+      <FileName>Definition\RDLParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Rectangle" Collapsed="true">
+    <Position X="247.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAEIAIAAAIAAAIAAAAAAAQAAAAACAAAAAgAI=</HashCode>
+      <FileName>Definition\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportClass" Collapsed="true">
+    <Position X="209.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAARAECAAAAAAAAAAAAAAAAQAAAAQAAAEAAABAA=</HashCode>
+      <FileName>Definition\ReportClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportDefn" Collapsed="true">
+    <Position X="294.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAFQLsBRjEfhCPgK4ABhoFTAFkArKAo0FgiCHGEVgJM=</HashCode>
+      <FileName>Definition\ReportDefn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportItem" Collapsed="true">
+    <Position X="246.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QPgAAAQhVkJgAE5SCAIooM5oAEgKpAIRDIKAEIQBExY=</HashCode>
+      <FileName>Definition\ReportItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportItems" Collapsed="true">
+    <Position X="272.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEFAACBAACAAAAAAAAAAAAAAAAAGAAAAAAAI=</HashCode>
+      <FileName>Definition\ReportItems.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportLink" Collapsed="true">
+    <Position X="144" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIQAAAEAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ReportLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportLog" Collapsed="true">
+    <Position X="296.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAEAAAAAAQIAAAAAIAAAAAAAAAAAE=</HashCode>
+      <FileName>Definition\ReportLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportParameter" Collapsed="true">
+    <Position X="45" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABwAgQAAAEAAACAigIAMIKQAEAhAAAAAAAQAAAAEQAI=</HashCode>
+      <FileName>Definition\ReportParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.UserReportParameter" Collapsed="true">
+    <Position X="296.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAIAAAAAAAAAhIAAACwAEABAAAAAICQggEAAAAA=</HashCode>
+      <FileName>Definition\ReportParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ReportParameters" Collapsed="true">
+    <Position X="76.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFCACBAAAAAAEAQAAAgAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Definition\ReportParameters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Row" Collapsed="true">
+    <Position X="298" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAIAAACAAAAAAAACAAAABABAgAEAAAAAQA=</HashCode>
+      <FileName>Definition\Row.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RowGrouping" Collapsed="true">
+    <Position X="103.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEAAAAAAAAAAQEAAQBAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Definition\RowGrouping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RowGroupings" Collapsed="true">
+    <Position X="117" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQABAFAACABAQAAAAAAQAAEAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Definition\RowGroupings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Rows" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="278.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAAAAAAAAQAAAAAAAAABGIAABEAAAABBA=</HashCode>
+      <FileName>Definition\Rows.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RowsSortExpression" Collapsed="true">
+    <Position X="280.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Definition\Rows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RSize" Collapsed="true">
+    <Position X="282.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAIgAAEAAQIAAIAAAEAAIABAABAAAAAEAQ=</HashCode>
+      <FileName>Definition\RSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SeriesGrouping" Collapsed="true">
+    <Position X="150.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAEIgAAAAgAAAAAAAAAAAAAAABAAAAACAAAA=</HashCode>
+      <FileName>Definition\SeriesGrouping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SeriesGroupings" Collapsed="true">
+    <Position X="157.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\SeriesGroupings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SortBy" Collapsed="true">
+    <Position X="173.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAABAACAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\SortBy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SortDirection" Collapsed="true">
+    <Position X="285.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\SortDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Sorting" Collapsed="true">
+    <Position X="204.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Sorting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StaticCategories" Collapsed="true">
+    <Position X="211.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StaticCategories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StaticColumn" Collapsed="true">
+    <Position X="218.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StaticColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StaticColumns" Collapsed="true">
+    <Position X="225" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StaticColumns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StaticMember" Collapsed="true">
+    <Position X="258.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StaticMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StaticRow" Collapsed="true">
+    <Position X="274.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StaticRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StaticRows" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StaticRows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StaticSeries" Collapsed="true">
+    <Position X="31.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StaticSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Style" Collapsed="true">
+    <Position X="47.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAoEDNNKFAHA6T5IvMsEpbOaHn9gQBkBD4smAEJEgA=</HashCode>
+      <FileName>Definition\Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StyleBackgroundImage" Collapsed="true">
+    <Position X="63" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMBAsAAABAAQAAAAAAAAUABEAAAAAAgEABAAAA=</HashCode>
+      <FileName>Definition\StyleBackgroundImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StyleBackgroundImageSource" Collapsed="true">
+    <Position X="294.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\StyleBackgroundImageSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StyleBorderColor" Collapsed="true">
+    <Position X="119.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAAEAAAAgAAFAQIAAAAIALAQABCACAAAIAAQA=</HashCode>
+      <FileName>Definition\StyleBorderColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StyleBorderStyle" Collapsed="true">
+    <Position X="128.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAAEAAAAgAAFAQIAAAAMALAQABCACAAAIAAQA=</HashCode>
+      <FileName>Definition\StyleBorderStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StyleBorderWidth" Collapsed="true">
+    <Position X="141.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAAEAAAAgAAFAQIAAAAIALAQABCACAAAIAAQA=</HashCode>
+      <FileName>Definition\StyleBorderWidth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Subreport" Collapsed="true">
+    <Position X="240.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAASIBBAEAEgAAIAAAgAAAAAAAAAAAAAICEAADAAAI=</HashCode>
+      <FileName>Definition\Subreport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SubreportWorkClass" Collapsed="true">
+    <Position X="299.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\Subreport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SubreportParameter" Collapsed="true">
+    <Position X="175.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAABAAAAAAIAQAAAAAAAAACAAgAAAAAAA=</HashCode>
+      <FileName>Definition\SubreportParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SubReportParameters" Collapsed="true">
+    <Position X="189" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\SubreportParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Subtotal" Collapsed="true">
+    <Position X="198" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEIgAAAgIAAAgAgAAEAAIAAABIAAAAAAAAA=</HashCode>
+      <FileName>Definition\Subtotal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SubtotalPosition" Collapsed="true">
+    <Position X="277" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\SubtotalPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Table" Collapsed="true">
+    <Position X="256.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAggQRQYUABwQIBAARggAAAQAggAEAGQASMBAABEII=</HashCode>
+      <FileName>Definition\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableWorkClass" Collapsed="true">
+    <Position X="280.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEgAA=</HashCode>
+      <FileName>Definition\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RecursiveCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="299.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAEABEA=</HashCode>
+      <FileName>Definition\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.GroupEntryCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="278.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAA=</HashCode>
+      <FileName>Definition\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableCell" Collapsed="true">
+    <Position X="20.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAQEIAABAAIAAAEAQAggAAAAAAAAiAAAAAAAI=</HashCode>
+      <FileName>Definition\TableCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableCells" Collapsed="true">
+    <Position X="33.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAI=</HashCode>
+      <FileName>Definition\TableCells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableColumn" Collapsed="true">
+    <Position X="49.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAABAEAAEAAAAAAAAEIAAAAEAAAAAAAAEAAAEBI=</HashCode>
+      <FileName>Definition\TableColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableColumns" Collapsed="true">
+    <Position X="65.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAFAACBAACAAAAAAAAAAAAAAEAAAAAAAAAAI=</HashCode>
+      <FileName>Definition\TableColumns.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableGroup" Collapsed="true">
+    <Position X="78.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BkAIAggAAECAAAAAAAAgAAIQAAAAAEAEQAAAQAAAAAA=</HashCode>
+      <FileName>Definition\TableGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableGroups" Collapsed="true">
+    <Position X="92.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAFAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\TableGroups.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableRow" Collapsed="true">
+    <Position X="105.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAABhEAAAAAAAEAAQEIAAACAAIAAEBCAEICAAAI=</HashCode>
+      <FileName>Definition\TableRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TableRows" Collapsed="true">
+    <Position X="121.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAFAACQAAAAAAAAAAAACAAIAAAAiAAAAAAAI=</HashCode>
+      <FileName>Definition\TableRows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Textbox" Collapsed="true">
+    <Position X="238.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAIAQwEkAAABEARAACgsQAAAAEAIAAEACgABKAAAI=</HashCode>
+      <FileName>Definition\Textbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TextboxRuntime" Collapsed="true">
+    <Position X="282.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAhAAAIAAAAAAAAAAAAAAAAAAAAAAAAACCAA=</HashCode>
+      <FileName>Definition\Textbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ThreeDProperties" Collapsed="true">
+    <Position X="144" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQgBAEASgIAQgBAAmQEACAAAEAAAAAAABACBAEE=</HashCode>
+      <FileName>Definition\ThreeDProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ThreeDPropertiesDrawingStyle" Collapsed="true">
+    <Position X="284" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ThreeDPropertiesDrawingStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ThreeDPropertiesProjectionMode" Collapsed="true">
+    <Position X="285.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ThreeDPropertiesProjectionMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ThreeDPropertiesShading" Collapsed="true">
+    <Position X="287.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ThreeDPropertiesShading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Title" Collapsed="true">
+    <Position X="213.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAgAAAgAAAAgAAAAAAAAAAADAACAAAAAAA=</HashCode>
+      <FileName>Definition\Title.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TitlePosition" Collapsed="true">
+    <Position X="289.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\TitlePosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ToggleImage" Collapsed="true">
+    <Position X="261" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAA=</HashCode>
+      <FileName>Definition\ToggleImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TrueFalseAuto" Collapsed="true">
+    <Position X="294.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\TrueFalseAuto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ValidValues" Collapsed="true">
+    <Position X="36" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQCAAEAAAAACBAAgAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Definition\ValidValues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ValueAxis" Collapsed="true">
+    <Position X="51.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ValueAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Values" Collapsed="true">
+    <Position X="67.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABFAACBAQAAAABAQAAAAAAAAAAAAAAABQIAA=</HashCode>
+      <FileName>Definition\Values.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Visibility" Collapsed="true">
+    <Position X="81" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAgAAAAAAAQAAAAAIAAAAAAAAAEEAA=</HashCode>
+      <FileName>Definition\Visibility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CharReader" Collapsed="true">
+    <Position X="284" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAAEAABAQABAAQAAAAAAAEIABAAAAAABAAA=</HashCode>
+      <FileName>ExprParser\CharReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.LaxBinder" Collapsed="true">
+    <Position X="291" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAEAAQAAAEABAAAAAEAAIAAAAAA=</HashCode>
+      <FileName>ExprParser\LaxBinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Lexer" Collapsed="true">
+    <Position X="296.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIACAAAAAAAAAAAAgQAAAEAAAAASAAA=</HashCode>
+      <FileName>ExprParser\Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Parser" Collapsed="true">
+    <Position X="292.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAUgCDAACIAIAAACgDAAEgASIQAIgAAAAAAQAgAEIAA=</HashCode>
+      <FileName>ExprParser\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ParserException" Collapsed="true">
+    <Position X="294.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExprParser\ParserException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Token" Collapsed="true">
+    <Position X="291" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEAAAAAAACAAAAIAAAEQAgAAAAAAA=</HashCode>
+      <FileName>ExprParser\Token.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TokenList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="292.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAEQBAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ExprParser\TokenList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Constant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="278.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\Constant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConstantBoolean" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="280.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\ConstantBoolean.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConstantDateTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="282.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\ConstantDateTime.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConstantDecimal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="284" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\ConstantDecimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConstantDouble" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="285.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\ConstantDouble.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConstantError" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="287.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\ConstantError.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConstantInteger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="289.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\ConstantInteger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ConstantString" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="291" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\ConstantString.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Financial" Collapsed="true">
+    <Position X="280.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIggAAAAAAAAEAAAAAAAAAEAAAAAABgAQAAQAAAA=</HashCode>
+      <FileName>Functions\Financial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggr" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAEAECBBAAACAAAAAAAAAgAAAAAIAACAAAAAAAAAA=</HashCode>
+      <FileName>Functions\FunctionAggr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RowEnumerable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="299.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACABAAABAAAAAAAAAEAAwAABAAAAAQAAABAAA=</HashCode>
+      <FileName>Functions\FunctionAggr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RowEnumerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="277" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAKAAAAAAAAAAAAAIAAAAAABAAA=</HashCode>
+      <FileName>Functions\FunctionAggr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrArray" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrAvg" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAgAAAACAAgAAAkAAAAEAwEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrAvg.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrCount" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrCount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrCountDistinct" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrCountDistinct.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrCountRows" Collapsed="true">
+    <Position X="28" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAgAAAEAAAAEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrCountRows.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrFirst" Collapsed="true">
+    <Position X="30.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrFirst.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrLast" Collapsed="true">
+    <Position X="32.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrLast.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrLevel" Collapsed="true">
+    <Position X="34.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAgAAAEAAAAEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrLevel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrMax" Collapsed="true">
+    <Position X="37" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrMax.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrMin" Collapsed="true">
+    <Position X="39.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrMin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrNext" Collapsed="true">
+    <Position X="41.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrNext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrPrevious" Collapsed="true">
+    <Position X="43.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrPrevious.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvAvg" Collapsed="true">
+    <Position X="46" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvAvg.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvCount" Collapsed="true">
+    <Position X="48.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvCount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvMax" Collapsed="true">
+    <Position X="50.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvMax.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvMin" Collapsed="true">
+    <Position X="52.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvMin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvStdev" Collapsed="true">
+    <Position X="55" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvStdev.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvStdevp" Collapsed="true">
+    <Position X="57.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvStdevp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvSum" Collapsed="true">
+    <Position X="59.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAkAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvSum.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvVar" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvVar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrRvVarp" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrRvVarp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrStdev" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrStdev.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrStdevp" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrStdevp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrSum" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAgAAAACAAgAAAkAAAAEAwEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrSum.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrVar" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrVar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAggrVarp" Collapsed="true">
+    <Position X="25.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAgAAAACAAgAAAEAAAAEAAEAACEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAggrVarp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionAnd" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionAnd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionBinary" Collapsed="true">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAQAAAAA=</HashCode>
+      <FileName>Functions\FunctionBinary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionChoose" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="282.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAhAAAkAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionChoose.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionCode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="284" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADCAAAEAAAAAAAAAAAABAgAABEAAAIEAAEABAEAEIAA=</HashCode>
+      <FileName>Functions\FunctionCode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionCustomInstance" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="285.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADCAAAEAAAAAAAAAAAABAgAADEAAAIEAAGABAEAEIAI=</HashCode>
+      <FileName>Functions\FunctionCustomInstance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionCustomStatic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="287.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADCAAAEAAAAAAQAAAAABAgAABEAAAIEAAGABAEAEIAI=</HashCode>
+      <FileName>Functions\FunctionCustomStatic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionDiv" Collapsed="true">
+    <Position X="25.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionDiv.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionDivDecimal" Collapsed="true">
+    <Position X="29.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionDivDecimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionExecutionTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="289.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionExecutionTime.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionExp" Collapsed="true">
+    <Position X="36.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionExp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionField" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAIgQAAEAAAIEQAEABAECAIAA=</HashCode>
+      <FileName>Functions\FunctionField.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionFieldCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="291" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAEIEAAECAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionFieldCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionFieldIsMissing" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionFieldIsMissing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionFormat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="292.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAgIAA=</HashCode>
+      <FileName>Functions\FunctionFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionGlobalCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="294.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAQAAAAAAAgAAAEAAEIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionGlobalCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionIif" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="296.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAMAAAAAAAAAAACAAgAAAEAAAIEAAEAAAEAEIAA=</HashCode>
+      <FileName>Functions\FunctionIif.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionMinus" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionMinus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionMinusDecimal" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionMinusDecimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionMinusInt32" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionMinusInt32.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionModulus" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionModulus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionMult" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionMult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionMultDecimal" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionMultDecimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionNot" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="298" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAEAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionNot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionOr" Collapsed="true">
+    <Position X="18.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionOr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionPageNumber" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="299.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionPageNumber.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionParameterCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="277" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAQAEAAAAAAAAAAAAAAgAAAEAAEIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionParameterCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionPlus" Collapsed="true">
+    <Position X="20.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionPlus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionPlusDecimal" Collapsed="true">
+    <Position X="23" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionPlusDecimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionPlusInt32" Collapsed="true">
+    <Position X="27.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionPlusInt32.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionPlusString" Collapsed="true">
+    <Position X="32" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionPlusString.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionRelopEQ" Collapsed="true">
+    <Position X="34.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionRelopEQ.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionRelopGT" Collapsed="true">
+    <Position X="38.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionRelopGT.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionRelopGTE" Collapsed="true">
+    <Position X="41" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionRelopGTE.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionRelopLT" Collapsed="true">
+    <Position X="43.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionRelopLT.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionRelopLTE" Collapsed="true">
+    <Position X="45.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionRelopLTE.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionRelopNE" Collapsed="true">
+    <Position X="47.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionRelopNE.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionReportFolder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="278.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionReportFolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionReportItemCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="280.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAIAAAAAAAAAAgAAAEAAEIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionReportItemCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionReportName" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="282.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionReportName.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionReportParameter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCACAEAACAAAAQAAAAAAgAAAGAAAIMAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionReportParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionReportParameterLabel" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionReportParameterLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionSwitch" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="284" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAhAAAkAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionSwitch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionSystem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="285.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADCAAAEAAAAAAAAAAAABAgAABEAAAIEAAGABAEAEIAI=</HashCode>
+      <FileName>Functions\FunctionSystem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionTextbox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="287.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEQAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionTextbox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionTotalPages" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="289.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionTotalPages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionUnaryMinus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="291" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAEAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAUAAIAA=</HashCode>
+      <FileName>Functions\FunctionUnaryMinus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionUnaryMinusDecimal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="292.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAEAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAUAAIAA=</HashCode>
+      <FileName>Functions\FunctionUnaryMinusDecimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionUnaryMinusInteger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="294.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAEAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAUAAIAA=</HashCode>
+      <FileName>Functions\FunctionUnaryMinusInteger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionUserCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="296.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAIAAAAAAAgAAAEAAEIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionUserCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionUserID" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="298" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionUserID.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.FunctionUserLanguage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="299.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\FunctionUserLanguage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Identifier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="280.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\Identifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.IdentifierKey" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="282.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAABAAAAAAAgAAAEAAAIEAAEAgAEAAIAA=</HashCode>
+      <FileName>Functions\IdentifierKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.VBFunctions" Collapsed="true">
+    <Position X="298" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAJgBRgMwAUEECAgZAgAAAQDIEqICAAQYBACk=</HashCode>
+      <FileName>Functions\VBFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PortaException" Collapsed="true">
+    <Position X="285.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrintText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PrintText" Collapsed="true">
+    <Position X="287.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABRAGBBBACAAAoCAkAAgiCAAAEBIAQAAgACJEAiMEAg=</HashCode>
+      <FileName>PrintText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DelimitedTextWriter" Collapsed="true">
+    <Position X="292.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAIAACAAACggBAAAUAAACAQAAEgABI=</HashCode>
+      <FileName>Render\DelimitedTextWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DMPTextWriter" Collapsed="true">
+    <Position X="294.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAIAACAAACggBAAAUAAACAQAAEgABI=</HashCode>
+      <FileName>Render\DMPTextWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ExcelValet" Collapsed="true">
+    <Position X="277" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBgEIgDBEAIAEAFgAAAwkQ1QAgAoCQCIBGAkEAIAgiA=</HashCode>
+      <FileName>Render\ExcelValet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StringCache" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="292.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABEQAAAAAAQAAAAIAAAEAAAAgAAAAAA=</HashCode>
+      <FileName>Render\ExcelValet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CellData" Collapsed="true">
+    <Position X="282.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAA=</HashCode>
+      <FileName>Render\ExcelValet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SheetInfo" Collapsed="true">
+    <Position X="284" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAQAAAMAQAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Render\ExcelValet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SparseMatrix" Collapsed="true">
+    <Position X="287.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAABAAAAAAACAAAAAQAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Render\ExcelValet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderHtmlTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="284" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEIUAEwAAiRAggIFgkFU6xBWBSEETJiIFAwhohoBngY=</HashCode>
+      <FileName>Render\HtmlConverter\RenderHtmlTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CssCacheEntry2" Collapsed="true">
+    <Position X="294.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAQAAAAAEAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Render\HtmlConverter\RenderHtmlTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.TablePositioner" Collapsed="true">
+    <Position X="278.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAIAAIAAAAAAEAgAEAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Render\HtmlConverter\TablePositioner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MemoryStreamGen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="285.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACACABAIAABEIAACAQEAAQAAACIABAABAAA=</HashCode>
+      <FileName>Render\MemoryStreamGen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MhtBuilder" Collapsed="true">
+    <Position X="287.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAQAKABIAYABAGCACAQAAAgaAiggAACAIAAEAACEI=</HashCode>
+      <FileName>Render\MhtConverter\MhtBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MhtWebClientLocal" Collapsed="true">
+    <Position X="289.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKBAAAQAAAoCwgAAAAAAAAAAAAAOAAAAAIhkBAEAA=</HashCode>
+      <FileName>Render\MhtConverter\MhtWebClientLocal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.MhtWebFile" Collapsed="true">
+    <Position X="291" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBIh4AAinCEJAJAkQgJTQERBiKCERDAQKEFQAIJVIQg=</HashCode>
+      <FileName>Render\MhtConverter\MhtWebFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.OneFileStreamGen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="282.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAgAACAAAQAAEABEIAAAAACABAQAAAIAAABAAAA=</HashCode>
+      <FileName>Render\OneFileStreamGen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfBase" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAACAAAAAAAQAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Render\PdfBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfAnchor" Collapsed="true">
+    <Position X="296.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAABgAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ObjectList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="296.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfCatalog" Collapsed="true">
+    <Position X="24" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAAAAAAAQAAAA=</HashCode>
+      <FileName>Render\PdfCatalog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfContent" Collapsed="true">
+    <Position X="1.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAIAAAAAAAAAAAABAABAABAAAAA=</HashCode>
+      <FileName>Render\PdfContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfElements" Collapsed="true">
+    <Position X="298" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAiAARAAAQAQABABAAAAAgCAAAAAAAQACEAAEABiAAQ=</HashCode>
+      <FileName>Render\PdfElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfFonts" Collapsed="true">
+    <Position X="299.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAQAAAAAAAAAAAAAAhAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Render\PdfFont.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfFontEntry" Collapsed="true">
+    <Position X="3.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfFont.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfImages" Collapsed="true">
+    <Position X="277" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAEAAAABAAAAAAEAAAAAE=</HashCode>
+      <FileName>Render\PdfImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfImageEntry" Collapsed="true">
+    <Position X="6" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.JpgParser" Collapsed="true">
+    <Position X="289.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfInfo" Collapsed="true">
+    <Position X="8.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAQAAAAAgAAAA=</HashCode>
+      <FileName>Render\PdfInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfOutline" Collapsed="true">
+    <Position X="278.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAAAABAAAAAQQAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfOutline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfOutlineMain" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfOutline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfOutlineEntry" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAIAAAACABAYAA=</HashCode>
+      <FileName>Render\PdfOutline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfPageTree" Collapsed="true">
+    <Position X="15" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAgAAAEAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfPage" Collapsed="true">
+    <Position X="17.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAgAEQAAIAEAAAAAAAAAAAEAAAAIIAACQAgBA=</HashCode>
+      <FileName>Render\PdfPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfPattern" Collapsed="true">
+    <Position X="280.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PatternObj" Collapsed="true">
+    <Position X="19.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfPatternEntry" Collapsed="true">
+    <Position X="21.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAERAAEAAAAAAAAIAAAAIQAECCEAIAAgCAAAAAAAA=</HashCode>
+      <FileName>Render\PdfPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PdfUtility" Collapsed="true">
+    <Position X="282.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAIAAAAAEAIAEAAAAUIAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Render\PdfUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Ascii85Encode" Collapsed="true">
+    <Position X="277" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAAAAAERAAAAIAAAAAAAAEAAAAAAAAAAAQ=</HashCode>
+      <FileName>Render\PdfUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.AsciiHexEncode" Collapsed="true">
+    <Position X="278.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Render\PdfUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ProcessReport" Collapsed="true">
+    <Position X="289.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAI=</HashCode>
+      <FileName>Render\ProcessReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderCsv" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="277" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEIUAAQAAiQAgAIFgEFQyRBUBSAEDBiIAAwgABoBlAA=</HashCode>
+      <FileName>Render\RenderCsv.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderDMP" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="278.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YFJUAAwAAiQAgAKFgEFQyRBUBSBELFiIgAwgABoFlAA=</HashCode>
+      <FileName>Render\RenderDMP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderExcel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="280.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEIUAAwAAiQIgAIFgElQ6RBUFSEMBBiIAAwlABoBnAA=</HashCode>
+      <FileName>Render\RenderExcel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderHtml" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="282.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEIUAEwAAiRAggIFgkFU6xBWBSEETJiIFAwhohoBngY=</HashCode>
+      <FileName>Render\RenderHtml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CssCacheEntry" Collapsed="true">
+    <Position X="292.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAQAAAAAEAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Render\RenderHtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderPdf" BaseTypeListCollapsed="true">
+    <Position X="285.75" Y="9.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Oranikle.Report.Engine.RenderPdf.WordStartFinish">
+        <TypeIdentifier>
+          <NewMemberFileName>Render\RenderPdf.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QUIWACQEAiQBgBIFkEFQyZFUFWAEDBjIQAwhABoRlIA=</HashCode>
+      <FileName>Render\RenderPdf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderRtf" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="287.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFIUIAwABiQAgQIFgElQ6RBUBXkELByJAAwhABoBnAI=</HashCode>
+      <FileName>Render\RenderRtf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderTif" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="289.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFIUACSAJjwAgAIFjkFQyRBUBSAEDJqJAEwlADoFlAA=</HashCode>
+      <FileName>Render\RenderTif.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RenderXml" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="291" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEIUAAwQAiQAkAIFgEFQyRBUJSEEjBiIAI4hABoFlAA=</HashCode>
+      <FileName>Render\RenderXml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StreamGen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="291" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAACAAAQAAEAJEIAAACACEAAQAAAIAAABAAAA=</HashCode>
+      <FileName>Render\StreamGen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSet" Collapsed="true">
+    <Position X="282.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIBAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSets" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="284" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataSets.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSource" Collapsed="true">
+    <Position X="285.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Runtime\DataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.DataSources" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="289.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataSources.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ImageQualityManager" Collapsed="true">
+    <Position X="284" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\ImageQualityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Pages" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="285.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAYAJAACMAAIBSAAAAAoAAAABBCCkEABAI=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Page" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="284" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACDAAEAAACAwADAQCAAIAAUADBAIADAAAgAAAAQAAIA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageItem" Collapsed="true">
+    <Position X="9" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAAIIAABQAARAQAAAAACAAAAAgAABQAhgIEJIYDE=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageImage" Collapsed="true">
+    <Position X="14.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAIAAgAGgAAgAIAAIQAAAAEAgAAAAIAAAAAARA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageEllipse" Collapsed="true">
+    <Position X="17" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageLine" Collapsed="true">
+    <Position X="1.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageCurve" Collapsed="true">
+    <Position X="3.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAIAAAAIAAAAAAAAAAAAIAAAAAgBA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PagePolygon" Collapsed="true">
+    <Position X="5.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PagePie" Collapsed="true">
+    <Position X="8" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAIAAABA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageRectangle" Collapsed="true">
+    <Position X="10.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageText" Collapsed="true">
+    <Position X="12.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAggBAIEIQACACAABA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageTextHtml" Collapsed="true">
+    <Position X="12.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICEAAACEEAgABBAgAEBAAAAIIBAEgAAAEBAAAAAAABA=</HashCode>
+      <FileName>Runtime\PageTextHtml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageTextHtmlCmdLexer" Collapsed="true">
+    <Position X="287.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAIAAAAAAAAAAAAAAgAAAAAAAAAASAAA=</HashCode>
+      <FileName>Runtime\PageTextHtmlCmdLexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.PageTextHtmlLexer" Collapsed="true">
+    <Position X="289.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAEABAAAAIAAAAAEAAEAAAAAAgAADAAAAAASAAA=</HashCode>
+      <FileName>Runtime\PageTextHtmlLexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ParameterLexer" Collapsed="true">
+    <Position X="291" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIAAAgAAAAAAAAAAgAAAAAAAAAASAAA=</HashCode>
+      <FileName>Runtime\ParameterLexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RdlEngineConfig" Collapsed="true">
+    <Position X="296.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEACAAQAAAAAAQAACogAAABAEAIApAAAAEABAAAQA=</HashCode>
+      <FileName>Runtime\RdlEngineConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CompressionConfig" Collapsed="true">
+    <Position X="277" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAACAQAAAAACAIIAAEAAQAAABAAACAEEAAAI=</HashCode>
+      <FileName>Runtime\RdlEngineConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SqlConfigEntry" Collapsed="true">
+    <Position X="289.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAACEAAAAEAAAAAAAAAAAAAAAAAAAAEBAAAA=</HashCode>
+      <FileName>Runtime\RdlEngineConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.CustomReportItemEntry" Collapsed="true">
+    <Position X="298" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAA=</HashCode>
+      <FileName>Runtime\RdlEngineConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.Report" Collapsed="true">
+    <Position X="292.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECQ2gogBAitoCwAgAVAAg0AYIBAAJIghIQAEwZEFAM=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.RCache" Collapsed="true">
+    <Position X="294.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAEABAQAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ODateTime" Collapsed="true">
+    <Position X="298" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ODecimal" Collapsed="true">
+    <Position X="299.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ODouble" Collapsed="true">
+    <Position X="277" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.OFloat" Collapsed="true">
+    <Position X="278.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.OInt" Collapsed="true">
+    <Position X="280.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.SubreportDataRetrievalEventArgs" Collapsed="true">
+    <Position X="298" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Runtime\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.StyleInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="296.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABpABAhCBELJyBmACQSBhBUSFCJIAIESARIggMAEBA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Oranikle.Report.Engine.XmlUtil" Collapsed="true">
+    <Position X="299.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAQCUEQAAAAAAAAAAAAQAAggAAAIAAAQCAgA=</HashCode>
+      <FileName>Runtime\XmlUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ZipWrap" Collapsed="true">
+    <Position X="280.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAACAAAAgAAAAAAEAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Runtime\ZipWrap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ZipOutputStream" Collapsed="true">
+    <Position X="278.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAQAAAAAAAAEAAAAAMAAAAAAAAAAGAAgg=</HashCode>
+      <FileName>Runtime\ZipWrap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oranikle.Report.Engine.ZipEntry" Collapsed="true">
+    <Position X="277" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>Runtime\ZipWrap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Oranikle.Report.Engine.PdfPageSize" Collapsed="true">
+    <Position X="277" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAIAAAAAAAAAIAIAAAAAAAIAAQ=</HashCode>
+      <FileName>Render\PdfPage.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Oranikle.Report.Engine.ICacheData" Collapsed="true">
+    <Position X="277" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Functions\ICacheData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Oranikle.Report.Engine.IExpr" Collapsed="true">
+    <Position X="280.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAEAAAAAAAAAAAAAAgAAAEAAAIEAAEAAAEAAIAA=</HashCode>
+      <FileName>Functions\IExpr.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Oranikle.Report.Engine.IPresent" Collapsed="true">
+    <Position X="282.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEIUAAQAAiQAgAIFgEFQyRBUBSAEBBiIAAwgABoBlAA=</HashCode>
+      <FileName>Render\IPresent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Oranikle.Report.Engine.IStreamGen" Collapsed="true">
+    <Position X="284" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Render\IStreamGen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Oranikle.Report.Engine.ICustomReportItem" Collapsed="true">
+    <Position X="278.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQIAAAAEAAAAAAAAAAAAAAAAAAAABAAAQCAAAAAA=</HashCode>
+      <FileName>Runtime\ICustomReportItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Oranikle.Report.Engine.AxisTickMarksEnum" Collapsed="true">
+    <Position X="277" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAEAAAA=</HashCode>
+      <FileName>Definition\AxisTickMarks.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ChartElementOutputEnum" Collapsed="true">
+    <Position X="285.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ChartElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ChartPaletteEnum" Collapsed="true">
+    <Position X="289.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAgAAAAABAAAAAAIgAAAAAIAAAAQEAAAAAAAEA=</HashCode>
+      <FileName>Definition\ChartPalette.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ChartSubTypeEnum" Collapsed="true">
+    <Position X="291" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAACAAAACAAAAAAAAAAAAACAAAAIAAAgAIAAABAAg=</HashCode>
+      <FileName>Definition\ChartSubType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ChartTypeEnum" Collapsed="true">
+    <Position X="292.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAABgAAAAAAABCAAAAgAAAAAAAAgACAQABABA=</HashCode>
+      <FileName>Definition\ChartType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ChartMarkerEnum" Collapsed="true">
+    <Position X="287.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAQAAAgAAgAAACAiAAEBQAA=</HashCode>
+      <FileName>Definition\ChartType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.DataElementOutputEnum" Collapsed="true">
+    <Position X="296.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAABAAAIAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Definition\DataElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.DataElementStyleEnum" Collapsed="true">
+    <Position X="298" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Definition\DataElementStyleEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.DataInstanceElementOutputEnum" Collapsed="true">
+    <Position X="299.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\DataInstanceElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.DataLabelPositionEnum" Collapsed="true">
+    <Position X="277" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAAAQAAAAAAAIAAAACACAACAIAEA=</HashCode>
+      <FileName>Definition\DataLabelPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.EMFBrushType" Collapsed="true">
+    <Position X="280.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAABAAAAAAAgAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFBrush.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.PenDataFlags" Collapsed="true">
+    <Position X="285.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIEQAAAQAAAAAAAAAAABCQAAgAAABEAQAAAAAEAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFPen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.CustomLineCapDataType" Collapsed="true">
+    <Position X="294.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFObjects\EMFPen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.EmfObjectType" Collapsed="true">
+    <Position X="282.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAgAAAhQBAAgCAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\EMFConverter\EMFRecords\EMFRecordObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ExpressionType" Collapsed="true">
+    <Position X="284" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACQAAAAAQQAAAACAAACCAAgAAAAAAgAAAAAA=</HashCode>
+      <FileName>Definition\ExpressionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.FilterOperatorEnum" Collapsed="true">
+    <Position X="285.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAEAAAAAgAAAAAAAAAAAIAAAAAQAAQRBgDA=</HashCode>
+      <FileName>Definition\FilterOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ImageSizingEnum" Collapsed="true">
+    <Position X="294.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Definition\ImageSizing.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ImageSourceEnum" Collapsed="true">
+    <Position X="296.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>Definition\ImageSource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.LegendLayoutEnum" Collapsed="true">
+    <Position X="298" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAQAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\LegendLayout.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.LegendPositionEnum" Collapsed="true">
+    <Position X="299.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIEAAAQBAAAAAAAQAAAAAAAQAAAAAKEAgAAEA=</HashCode>
+      <FileName>Definition\LegendPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.MarkerTypeEnum" Collapsed="true">
+    <Position X="277" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAgAAgAAAACgACEAAAA=</HashCode>
+      <FileName>Definition\MarkerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.MatrixCellDataElementOutputEnum" Collapsed="true">
+    <Position X="278.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\MatrixCellDataElementOutput.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.MatrixLayoutDirectionEnum" Collapsed="true">
+    <Position X="280.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Definition\MatrixLayoutDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.PlotTypeEnum" Collapsed="true">
+    <Position X="287.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABAAA=</HashCode>
+      <FileName>Definition\PlotType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.QueryCommandTypeEnum" Collapsed="true">
+    <Position X="289.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAA=</HashCode>
+      <FileName>Definition\QueryCommandType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.SortDirectionEnum" Collapsed="true">
+    <Position X="292.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\SortDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.BackgroundRepeat" Collapsed="true">
+    <Position X="280.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIDAAAAAAA=</HashCode>
+      <FileName>Definition\StyleBackgroundImage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.StyleBackgroundImageSourceEnum" Collapsed="true">
+    <Position X="294.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>Definition\StyleBackgroundImageSource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.BorderStyleEnum" Collapsed="true">
+    <Position X="282.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAEABAAAAAAAAABBAhAACAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>Definition\StyleBorderStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.SubtotalPositionEnum" Collapsed="true">
+    <Position X="296.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAA=</HashCode>
+      <FileName>Definition\SubtotalPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ThreeDPropertiesDrawingStyleEnum" Collapsed="true">
+    <Position X="277" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Definition\ThreeDPropertiesDrawingStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ThreeDPropertiesProjectionModeEnum" Collapsed="true">
+    <Position X="278.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Definition\ThreeDPropertiesProjectionMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ThreeDPropertiesShadingEnum" Collapsed="true">
+    <Position X="280.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Definition\ThreeDPropertiesShading.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.TitlePositionEnum" Collapsed="true">
+    <Position X="282.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Definition\TitlePosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.TrueFalseAutoEnum" Collapsed="true">
+    <Position X="285.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAA=</HashCode>
+      <FileName>Definition\TrueFalseAuto.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.TokenTypes" Collapsed="true">
+    <Position X="284" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAQCDCAAsAQBAAgEAAIiIAkIAAQCAAAAwAAAACE=</HashCode>
+      <FileName>ExprParser\TokenTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ReportParameterMethodEnum" Collapsed="true">
+    <Position X="291" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAEAQAAIAAAAAAAAEgAAAQAAA=</HashCode>
+      <FileName>Functions\FunctionReportParameter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.IdentifierKeyEnum" Collapsed="true">
+    <Position X="291" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\IdentifierKey.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.OutputPresentationType" Collapsed="true">
+    <Position X="282.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEQABAAAAAQIIAACAAAAAAAAAAQAAAAAAAGAA=</HashCode>
+      <FileName>Render\ProcessReport.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.ImageRepeat" Collapsed="true">
+    <Position X="292.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIDAAAAAAA=</HashCode>
+      <FileName>Runtime\Pages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.patternTypeEnum" Collapsed="true">
+    <Position X="284" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAERAAEAAAAAAAAAAAAAIQAECCEAIAAACAAAEAAAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.BackgroundGradientTypeEnum" Collapsed="true">
+    <Position X="278.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAhAAAEAEIACA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.FontStyleEnum" Collapsed="true">
+    <Position X="287.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.FontWeightEnum" Collapsed="true">
+    <Position X="289.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AigAAAAAAQAAACAAEEgEAAAAAAQIAAAAAAIEAAAAAAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.TextDecorationEnum" Collapsed="true">
+    <Position X="299.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.TextAlignEnum" Collapsed="true">
+    <Position X="298" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAACACAAAAIAAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.VerticalAlignEnum" Collapsed="true">
+    <Position X="289.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.DirectionEnum" Collapsed="true">
+    <Position X="278.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.WritingModeEnum" Collapsed="true">
+    <Position X="291" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.UnicodeBiDirectionalEnum" Collapsed="true">
+    <Position X="287.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Oranikle.Report.Engine.CalendarEnum" Collapsed="true">
+    <Position X="284" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAAEAAAAAAAAAAAAAiAAEAIAAAgQAAAAAQAMA=</HashCode>
+      <FileName>Runtime\StyleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Oranikle.Report.Engine.NeedPassword" Collapsed="true">
+    <Position X="277" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definition\ReportDefn.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

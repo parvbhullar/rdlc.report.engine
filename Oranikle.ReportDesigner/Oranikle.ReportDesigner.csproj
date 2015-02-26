@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F628D1CB-B9B0-4284-9C60-103F489869BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Oranikle.ReportDesigner</RootNamespace>
+    <AssemblyName>Oranikle.ReportDesigner</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oranikle.DesignBase">
+      <HintPath>..\Macrosys.DesignBase.UI\bin\Release\Oranikle.DesignBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackgroundCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\BaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\BaseControl.Designer.cs">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BodyCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartAxisCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartLegendCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorPicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorPickerPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomReportItemCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataSetRowsCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataSetsCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DesignCtl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DesignEditLines.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DesignerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignerForm.Designer.cs">
+      <DependentUpon>DesignerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DesignerUtility.cs" />
+    <Compile Include="DesignRuler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DesignXmlDraw.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DGCBColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DialogDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogDataSourceRef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogDataSources.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogEmbeddedImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogExprEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogFilterOperator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogListOfStrings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogNewChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogNewMatrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogNewTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogToolOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogValidateRdl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogValidValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrillParametersDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiltersCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FindTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FontCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GridCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GroupingCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InteractivityCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MatrixCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MatrixView.cs" />
+    <Compile Include="MDIChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulesClassesCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PositionCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyAction.cs" />
+    <Compile Include="PropertyAppearance.cs" />
+    <Compile Include="PropertyBackground.cs" />
+    <Compile Include="PropertyBorder.cs" />
+    <Compile Include="PropertyChart.cs" />
+    <Compile Include="PropertyCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PropertyDataRegion.cs" />
+    <Compile Include="PropertyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyExpr.cs" />
+    <Compile Include="PropertyFilters.cs" />
+    <Compile Include="PropertyGrouping.cs" />
+    <Compile Include="PropertyImage.cs" />
+    <Compile Include="PropertyList.cs" />
+    <Compile Include="PropertyLocation.cs" />
+    <Compile Include="PropertyMargin.cs" />
+    <Compile Include="PropertyMatrix.cs" />
+    <Compile Include="PropertyPadding.cs" />
+    <Compile Include="PropertyPrintFirstLast.cs" />
+    <Compile Include="PropertyRectangle.cs" />
+    <Compile Include="PropertyReport.cs" />
+    <Compile Include="PropertyReportItem.cs" />
+    <Compile Include="PropertySize.cs" />
+    <Compile Include="PropertySorting.cs" />
+    <Compile Include="PropertySubreport.cs" />
+    <Compile Include="PropertyTable.cs" />
+    <Compile Include="PropertyTableTab.cs" />
+    <Compile Include="PropertyTextbox.cs" />
+    <Compile Include="PropertyVisibility.cs" />
+    <Compile Include="QueryParametersCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RdlDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RdlEditPreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportNames.cs" />
+    <Compile Include="ReportParameterCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportXmlCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SimpleToggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SingleCtlDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortingCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SQLCtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaticSeriesCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaticSeriesCtl.Designer.cs">
+      <DependentUpon>StaticSeriesCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StyleBorderCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StyleCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StyleTextCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubreportCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TableColumnCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TableCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TableRowCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Undo.cs" />
+    <Compile Include="VisibilityCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\App.ico" />
+    <Content Include="Images\calign.gif" />
+    <Content Include="Images\chart.gif" />
+    <Content Include="Images\copy.gif" />
+    <Content Include="Images\csv.gif" />
+    <Content Include="Images\cut.gif" />
+    <Content Include="Images\excel.gif" />
+    <Content Include="Images\html.gif" />
+    <Content Include="Images\image.gif" />
+    <Content Include="Images\lalign.gif" />
+    <Content Include="Images\line.gif" />
+    <Content Include="Images\list.gif" />
+    <Content Include="Images\matrix.gif" />
+    <Content Include="Images\mht.gif" />
+    <Content Include="Images\new.gif" />
+    <Content Include="Images\open.gif" />
+    <Content Include="Images\paste.gif" />
+    <Content Include="Images\pdf.gif" />
+    <Content Include="Images\print.gif" />
+    <Content Include="Images\ralign.gif" />
+    <Content Include="Images\rectangle.gif" />
+    <Content Include="Images\rtf.gif" />
+    <Content Include="Images\save.gif" />
+    <Content Include="Images\selecttool.gif" />
+    <Content Include="Images\subreport.gif" />
+    <Content Include="Images\table.gif" />
+    <Content Include="Images\text.gif" />
+    <Content Include="Images\tif.gif" />
+    <Content Include="Images\undo.gif" />
+    <Content Include="Images\xml.gif" />
+    <Content Include="NewImages\attachment.gif" />
+    <Content Include="NewImages\block.gif" />
+    <Content Include="NewImages\bold.gif" />
+    <Content Include="NewImages\browser.gif" />
+    <Content Include="NewImages\centre.gif" />
+    <Content Include="NewImages\copy.gif" />
+    <Content Include="NewImages\CopyNew.gif" />
+    <Content Include="NewImages\cut.gif" />
+    <Content Include="NewImages\CutNew.png" />
+    <Content Include="NewImages\datatable.gif" />
+    <Content Include="NewImages\editor.gif" />
+    <Content Include="NewImages\help.gif" />
+    <Content Include="NewImages\image.gif" />
+    <Content Include="NewImages\indent.gif" />
+    <Content Include="NewImages\layouttable.gif" />
+    <Content Include="NewImages\left.gif" />
+    <Content Include="NewImages\line.gif" />
+    <Content Include="NewImages\link.gif" />
+    <Content Include="NewImages\noblock.gif" />
+    <Content Include="NewImages\ol.gif" />
+    <Content Include="NewImages\paste.gif" />
+    <Content Include="NewImages\print.gif" />
+    <Content Include="NewImages\right.gif" />
+    <Content Include="NewImages\screenreader.gif" />
+    <Content Include="NewImages\source.gif" />
+    <Content Include="NewImages\spell.gif" />
+    <Content Include="NewImages\strike.gif" />
+    <Content Include="NewImages\styles.gif" />
+    <Content Include="NewImages\sub.gif" />
+    <Content Include="NewImages\super.gif" />
+    <Content Include="NewImages\ul.gif" />
+    <Content Include="NewImages\underline.gif" />
+    <Content Include="NewImages\undo.gif" />
+    <None Include="Resources\image.gif" />
+    <None Include="Resources\line.gif" />
+    <None Include="Resources\source.gif" />
+    <None Include="Resources\undo.gif" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\delete.jpg" />
+    <None Include="Resources\data_update.jpg" />
+    <None Include="Resources\data_add.jpg" />
+    <None Include="Resources\print.gif" />
+    <None Include="Resources\saveHS.png" />
+    <None Include="Resources\paste.gif" />
+    <None Include="Resources\CopyNew.gif" />
+    <None Include="Resources\CutNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BackgroundCtl.resx">
+      <DependentUpon>BackgroundCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\BaseControl.resx">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BodyCtl.resx">
+      <DependentUpon>BodyCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartAxisCtl.resx">
+      <DependentUpon>ChartAxisCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartCtl.resx">
+      <DependentUpon>ChartCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartLegendCtl.resx">
+      <DependentUpon>ChartLegendCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeCtl.resx">
+      <DependentUpon>CodeCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorPickerPopup.resx">
+      <DependentUpon>ColorPickerPopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomReportItemCtl.resx">
+      <DependentUpon>CustomReportItemCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSetRowsCtl.resx">
+      <DependentUpon>DataSetRowsCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSetsCtl.resx">
+      <DependentUpon>DataSetsCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignCtl.resx">
+      <DependentUpon>DesignCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignEditLines.resx">
+      <DependentUpon>DesignEditLines.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignerForm.resx">
+      <DependentUpon>DesignerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignRuler.resx">
+      <DependentUpon>DesignRuler.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignXmlDraw.resx">
+      <DependentUpon>DesignXmlDraw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogDatabase.resx">
+      <DependentUpon>DialogDatabase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogDataSourceRef.resx">
+      <DependentUpon>DialogDataSourceRef.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogDataSources.resx">
+      <DependentUpon>DialogDataSources.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogEmbeddedImages.resx">
+      <DependentUpon>DialogEmbeddedImages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogExprEditor.resx">
+      <DependentUpon>DialogExprEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogFilterOperator.resx">
+      <DependentUpon>DialogFilterOperator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogListOfStrings.resx">
+      <DependentUpon>DialogListOfStrings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogNew.resx">
+      <DependentUpon>DialogNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogNewChart.resx">
+      <DependentUpon>DialogNewChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogNewMatrix.resx">
+      <DependentUpon>DialogNewMatrix.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogNewTable.resx">
+      <DependentUpon>DialogNewTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogToolOptions.resx">
+      <DependentUpon>DialogToolOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogValidateRdl.resx">
+      <DependentUpon>DialogValidateRdl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogValidValues.resx">
+      <DependentUpon>DialogValidValues.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrillParametersDialog.resx">
+      <DependentUpon>DrillParametersDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiltersCtl.resx">
+      <DependentUpon>FiltersCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindTab.resx">
+      <DependentUpon>FindTab.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontCtl.resx">
+      <DependentUpon>FontCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridCtl.resx">
+      <DependentUpon>GridCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupingCtl.resx">
+      <DependentUpon>GroupingCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageCtl.resx">
+      <DependentUpon>ImageCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InteractivityCtl.resx">
+      <DependentUpon>InteractivityCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListCtl.resx">
+      <DependentUpon>ListCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrixCtl.resx">
+      <DependentUpon>MatrixCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIChild.resx">
+      <DependentUpon>MDIChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesClassesCtl.resx">
+      <DependentUpon>ModulesClassesCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PositionCtl.resx">
+      <DependentUpon>PositionCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyCtl.resx">
+      <DependentUpon>PropertyCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyDialog.resx">
+      <DependentUpon>PropertyDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryParametersCtl.resx">
+      <DependentUpon>QueryParametersCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RdlDesigner.resx">
+      <DependentUpon>RdlDesigner.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RdlEditPreview.resx">
+      <DependentUpon>RdlEditPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCtl.resx">
+      <DependentUpon>ReportCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportParameterCtl.resx">
+      <DependentUpon>ReportParameterCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportXmlCtl.resx">
+      <DependentUpon>ReportXmlCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleButton.resx">
+      <DependentUpon>SimpleButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleToggle.resx">
+      <DependentUpon>SimpleToggle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleCtlDialog.resx">
+      <DependentUpon>SingleCtlDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortingCtl.resx">
+      <DependentUpon>SortingCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLCtl.resx">
+      <DependentUpon>SQLCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaticSeriesCtl.resx">
+      <DependentUpon>StaticSeriesCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StyleBorderCtl.resx">
+      <DependentUpon>StyleBorderCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StyleCtl.resx">
+      <DependentUpon>StyleCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StyleTextCtl.resx">
+      <DependentUpon>StyleTextCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubreportCtl.resx">
+      <DependentUpon>SubreportCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableColumnCtl.resx">
+      <DependentUpon>TableColumnCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableCtl.resx">
+      <DependentUpon>TableCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableRowCtl.resx">
+      <DependentUpon>TableRowCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisibilityCtl.resx">
+      <DependentUpon>VisibilityCtl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Designer.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Oranikle.Report.Engine\Oranikle.Report.Engine.csproj">
+      <Project>{1EDDD89D-0387-4223-B625-80F66D9FABD9}</Project>
+      <Name>Oranikle.Report.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Oranikle.Report.Viewer\Oranikle.Report.Viewer.csproj">
+      <Project>{5E16796E-5082-4402-A062-91B87B18C8CE}</Project>
+      <Name>Oranikle.Report.Viewer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

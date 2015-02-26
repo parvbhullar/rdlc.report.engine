@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oranikle.DesignBase.UI", "Oranikle.DesignBase.UI\Oranikle.DesignBase.UI.csproj", "{3D4D6457-E066-4506-BD7B-56ED94EC1151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oranikle.Design.Viewer", "Oranikle.Design.Viewer\Oranikle.Design.Viewer.csproj", "{7DC95F57-4C70-4A71-9E9A-97C5F5CE9688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oranikle.ReportDesigner", "Oranikle.ReportDesigner\Oranikle.ReportDesigner.csproj", "{F628D1CB-B9B0-4284-9C60-103F489869BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oranikle.Report.Engine", "Oranikle.Report.Engine\Oranikle.Report.Engine.csproj", "{1EDDD89D-0387-4223-B625-80F66D9FABD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oranikle.Report.Viewer", "Oranikle.Report.Viewer\Oranikle.Report.Viewer.csproj", "{5E16796E-5082-4402-A062-91B87B18C8CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D4D6457-E066-4506-BD7B-56ED94EC1151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4D6457-E066-4506-BD7B-56ED94EC1151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4D6457-E066-4506-BD7B-56ED94EC1151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4D6457-E066-4506-BD7B-56ED94EC1151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC95F57-4C70-4A71-9E9A-97C5F5CE9688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC95F57-4C70-4A71-9E9A-97C5F5CE9688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC95F57-4C70-4A71-9E9A-97C5F5CE9688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC95F57-4C70-4A71-9E9A-97C5F5CE9688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F628D1CB-B9B0-4284-9C60-103F489869BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F628D1CB-B9B0-4284-9C60-103F489869BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F628D1CB-B9B0-4284-9C60-103F489869BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F628D1CB-B9B0-4284-9C60-103F489869BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDDD89D-0387-4223-B625-80F66D9FABD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDDD89D-0387-4223-B625-80F66D9FABD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDDD89D-0387-4223-B625-80F66D9FABD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDDD89D-0387-4223-B625-80F66D9FABD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E16796E-5082-4402-A062-91B87B18C8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E16796E-5082-4402-A062-91B87B18C8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E16796E-5082-4402-A062-91B87B18C8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E16796E-5082-4402-A062-91B87B18C8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
